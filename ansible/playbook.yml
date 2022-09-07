@@ -15,7 +15,7 @@
         repo: 'https://foosball.example.org/path/to/repo.git'
         dest: /srv/checkout
         version: latest
-  
+
     - name: clone mercurial repo
       hg:
         repo: 'https://foosball.example.org/path/to/repo.git'
@@ -40,5 +40,11 @@
       shell: echo {{ "hello"|upper }}
       changed_when: false
 
+    - name: hello world
+      shell: echo "Hello World"
+
+    - name: enable redshift service
+      when:
+        - disabled == false
 
 

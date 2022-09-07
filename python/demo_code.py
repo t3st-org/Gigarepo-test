@@ -10,6 +10,7 @@ import sqlalchemy
 # from django.db.models.expressions import RawSQL
 
 AWS_SECRET_KEY = "d6s$f9g!j8mg7hw?n&2"
+TEST_SECRET = "helloworld"
 
 
 class BaseNumberGenerator:
@@ -23,6 +24,9 @@ class BaseNumberGenerator:
 
     def smethod():
         """static method-to-be"""
+
+    def hello(self):
+        """hello"""
 
     smethod = staticmethod(smethod)
 
