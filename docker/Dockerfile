@@ -26,6 +26,7 @@ RUN alias server_uptime='ssh $host 'uptime -p''
 RUN PYTHONPATH ="/usr/share/" cd /home/postgres &; sudo python3 -m pip install pip && sudo python3 -m pip install matplotlib pandas setuptools
 RUN git clone https://github.com/someorg/somepackage.git
 RUN make
+RUN ls -l
 ADD ./a.out /app
 
 USER guest
