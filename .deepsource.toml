@@ -2,7 +2,7 @@ version = 1
 
 [[analyzers]]
 name = "sql"
-enabled = false
+enabled = true
 
 [[analyzers]]
 name = "csharp"
@@ -24,26 +24,26 @@ enabled = true
 
 [[analyzers]]
 name = "php"
-enabled = false
+enabled = true
 
 [[analyzers]]
 name = "java"
-enabled = false
+enabled = true
 
   [analyzers.meta]
   runtime_version = "11"
 
 [[analyzers]]
 name = "shell"
-enabled = false
+enabled = true
 
 [[analyzers]]
 name = "terraform"
-enabled = false
+enabled = true
 
 [[analyzers]]
 name = "javascript"
-enabled = false
+enabled = true
 
   [analyzers.meta]
   environment = ['nodejs']
@@ -58,18 +58,18 @@ enabled = false
 
 [[analyzers]]
 name = "ruby"
-enabled = false
+enabled = true
 
 [[analyzers]]
 name = "go"
-enabled = false
+enabled = true
 
   [analyzers.meta]
   import_root = "github.com/QuackatronHQ/Gigarepo"
 
 [[analyzers]]
 name = "python"
-enabled = false
+enabled = true
 
   [analyzers.meta]
   runtime_version = "3.x.x"
