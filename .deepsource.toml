@@ -2,7 +2,7 @@ version = 1
 
 [[analyzers]]
 name = "sql"
-enabled = true
+enabled = false
 
 [[analyzers]]
 name = "csharp"
@@ -17,7 +17,7 @@ enabled = true
 
 [[analyzers]]
 name = "rust"
-enabled = true
+enabled = false
 
   [analyzers.meta]
   msrv = "1.30.0"
@@ -35,7 +35,7 @@ enabled = true
 
 [[analyzers]]
 name = "shell"
-enabled = true
+enabled = false
 
 [[analyzers]]
 name = "terraform"
