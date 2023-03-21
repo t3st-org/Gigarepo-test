@@ -43,7 +43,7 @@ enabled = false
 
 [[analyzers]]
 name = "javascript"
-enabled = false
+enabled = true
 
   [analyzers.meta]
   environment = ['nodejs']
